@@ -244,3 +244,8 @@ h2 {
   color: black;
   border: none;
 }
+
+/* akhir */
+.akhir {
+  background-color: var(--pr--color);
+}
