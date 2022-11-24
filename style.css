@@ -167,3 +167,80 @@ h2 {
 
   transition: all 0.2s ease-in;
 }
+
+/* search section */
+
+#search {
+  background-image: url(../Company\ Profile\ 1/aset/img/long.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#search h2 {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 72px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: var(--pr--color);
+}
+
+#search p {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.input-search {
+  height: 88px;
+}
+
+.input-search:focus {
+  border: none;
+}
+
+.input-search .button-secondary {
+  width: 200px;
+  height: 88px;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: var(--pr--color);
+  font-size: 18px;
+  font-weight: 500;
+  border: none;
+  border-radius: 0 10px 0 10px;
+}
+
+.input-search .button-primary {
+  height: 88px;
+  background-color: var(--pr--color);
+  color: white;
+  border: none;
+  font-size: 30px;
+  font-weight: 500;
+  border-radius: 0 10px 10px 10px;
+}
+
+.nav-tabs {
+  border: none;
+}
+
+.nav-tabs .nav-link {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.nav-tabs.nav-link.active {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: var(--pr--color);
+  border-radius: 0 9px 0 0;
+  font-weight: 500;
+}
+
+.nav-tabs .nav-link {
+  color: black;
+  border: none;
+}
